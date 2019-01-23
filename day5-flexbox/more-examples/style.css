@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    box-sizing: border-box;
+    /* height: 100vh; */
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container {
+    border: 5px solid black;
+    display: flex; 
+    height: 100%;
+    flex-direction: row;
+
+   /*  justify-content: flex-end;
+    align-items: flex-end; */
+    
+    /* justify content: positions items along MAIN axes (if default, it goes from L to R: 
+     flex-start; flex-end; center; space-around; space-between; space-evenly */
+}
+
+/* .home {
+    margin-right: auto; to align items to the rightmost side (margin-left: auto) or to the leftmost side (margin-right: auto) part of the line
+} */
+
+/* .search {
+    align-self: flex-end;
+}
+
+.home {
+    align-self: flex-end;
+}
+
+.logout {
+    align-self: flex-start;
+} */
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+     /* spreads items across entire container; another properties are flex-grow, flex-shrink and flex-basis */
+    /* better to write flex:1 than write number in % as that can change with number of items in the container */
+}
+
+.container > div:nth-child(1) {
+    background-color: #96ceb4;
+}
+
+.container > div:nth-child(2) {
+    background-color: #ff6f69;
+    
+}
+
+.container > div:nth-child(3) {
+    background-color: #96ceb4;
+}
+
+/* .container > div:nth-child(4) {
+    background-color: #ff6f69; */
+}

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: lightgray;
+  text-align: center;   
+}
+
+/* .container {
+  max-width: 800px;
+  margin: 1rem auto;
+  background-color: lightgray; */
+
+
+nav {
+  padding: 1em;
+  background-color: #435058;
+  text-align: left;
+  
+}
+
+nav a {
+  padding: 1em;
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("/img/welcome.jpg");
+  
